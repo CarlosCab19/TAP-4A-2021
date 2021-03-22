@@ -95,7 +95,7 @@ public class Pantalla extends Frame implements MouseListener, MouseMotionListene
 
     @Override
     public void keyPressed(KeyEvent arg0) {
-        // TODO Auto-generated method stub
+
         System.out.println("Presionando " + arg0.getKeyChar());
         if (!obj_pintable.isClicked()) {
             switch (arg0.getKeyChar()) {
