@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Practica4.MainPage">
+
+    <StackLayout VerticalOptions="Center" Margin="40,20">
+        <Label
+            Text="INGRESAR"
+            TextColor="Black"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"
+            />
+        <Entry 
+               x:Name="txtUser"
+               Placeholder="Ingresa tu usuario"
+               TextColor="{StaticResource GreeColor}"
+               Keyboard="Text"
+               
+               />
+        <Entry 
+               x:Name="txtPassword"
+               Placeholder="Ingresa una contraseña"
+                TextColor="{StaticResource GreeColor}"
+               IsPassword="True"
+            />
+        <Button
+            Text="Ingresar"
+            Clicked="Button_Clicked"
+            Margin="0,50,0,0"
+            />
+    </StackLayout>
+
+</ContentPage>
